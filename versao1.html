@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositório Investigação da Informação - Danielle (IC)</title>
+    <style>
+        /* Estilo Baseado no Portfólio Moderno */
+        body {
+            font-family: 'Georgia', serif; /* Uma fonte elegante e legível */
+            background-color: #fdfdfd; /* Fundo off-white, limpo */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #f9f9f9;
+            border-bottom: 1px solid #eee;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #777;
+            font-style: italic;
+        }
+
+        /* Seção do Banner Principal */
+        .banner-section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .banner-image {
+            width: 100%;
+            height: 300px;
+            background-color: #e0e0e0;
+            background-image: url('https://via.placeholder.com/1000x300.png?text=Acervo+Digital');
+            background-size: cover;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        .banner-text {
+            font-size: 1.2rem;
+            color: #555;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Seção de Conteúdo Assímbrico */
+        .content-section {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .content-block {
+            padding: 20px;
+        }
+
+        .content-block h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .code-snippet {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            overflow-x: auto;
+            font-size: 0.9rem;
+        }
+
+        /* Seção de Evidências (Grid) */
+        .evidence-section {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .evidence-section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .evidence-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .evidence-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            background-color: #fff;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .evidence-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .evidence-card h3 {
+            margin-top: 0;
+            color: #007bff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            background-color: #f9f9f9;
+            color: #777;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>INVESTIGAÇÃO DA INFORMAÇÃO</h1>
+        <p>Projeto de Iniciação Científica (IC) - Danielle (UNIRIO)</p>
+    </header>
+
+    <div class="banner-section">
+        <div class="banner-image"></div>
+        <p class="banner-text">“Organização e análise visual de fontes digitais para a Arquivologia: um acervo para a investigação científica.”</p>
+    </div>
+
+    <div class="content-section">
+        <div class="content-block">
+            <h2>O Lógica em Python</h2>
+            <p>Usamos scripts simples para simular coletas de dados e interações, como o cálculo de idade de fontes.</p>
+        </div>
+        <div class="content-block code-snippet">
+            # primeiros_passos.py<br>
+            nome_fonte = "Documento X"<br>
+            ano_criacao = int(input("Ano: "))<br>
+            idade = 2024 - ano_criacao<br>
+            if idade > 10:<br>
+                print("Fonte Antiga")
+        </div>
+    </div>
+
+    <div class="evidence-section">
+        <h2>PORTFÓLIO DE EVIDÊNCIAS</h2>
+        <div class="evidence-grid">
+            <div class="evidence-card">
+                <h3>Evidência IC-01</h3>
+                <p>Metadados extraídos de um arquivo PDF corrompido. Análise de integridade pendente.</p>
+            </div>
+            <div class="evidence-card">
+                <h3>Insights #2</h3>
+                <p>Relacionar o princípio da proveniência com a cadeia de custódia digital.</p>
+            </div>
+            <div class="evidence-card">
+                <h3>Repositório Git</h3>
+                <p>Repositório 'investigacao' criado para servir como acervo e portfólio.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Desenvolvido por Danielle, estudante de Arquivologia - UNIRIO. 2024.</p>
+    </footer>
+
+</body>
+</html>
