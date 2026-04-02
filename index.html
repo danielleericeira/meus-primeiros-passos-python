@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repositório Investigação da Informação - Danielle (IC)</title>
+    <title>IC Danielle - Arquivologia UNIRIO</title>
     <style>
-        /* Estilo Baseado no Portfólio Moderno */
         body {
-            font-family: 'Georgia', serif; /* Uma fonte elegante e legível */
-            background-color: #fdfdfd; /* Fundo off-white, limpo */
+            font-family: 'Georgia', serif;
+            background-color: #fdfdfd;
             color: #333;
             margin: 0;
             padding: 0;
@@ -18,167 +17,111 @@
         header {
             text-align: center;
             padding: 60px 20px;
-            background-color: #f9f9f9;
-            border-bottom: 1px solid #eee;
+            background-color: #f4f4f4;
+            border-bottom: 1px solid #ddd;
         }
 
-        header h1 {
-            font-size: 2.5rem;
-            font-weight: normal;
-            margin-bottom: 10px;
-        }
+        header h1 { font-size: 2.2rem; margin-bottom: 10px; color: #1a1a1a; }
+        header p { color: #666; font-style: italic; }
 
-        header p {
-            color: #777;
-            font-style: italic;
-        }
-
-        /* Seção do Banner Principal */
         .banner-section {
-            max-width: 1000px;
+            max-width: 900px;
             margin: 40px auto;
             padding: 0 20px;
             text-align: center;
         }
 
-        .banner-image {
-            width: 100%;
-            height: 300px;
-            background-color: #e0e0e0;
-            background-image: url('https://via.placeholder.com/1000x300.png?text=Acervo+Digital');
-            background-size: cover;
-            border: 1px solid #ccc;
-            margin-bottom: 20px;
-        }
-
         .banner-text {
-            font-size: 1.2rem;
-            color: #555;
-            max-width: 600px;
-            margin: 0 auto;
+            font-size: 1.25rem;
+            color: #444;
+            border-left: 4px solid #007bff;
+            padding-left: 20px;
+            text-align: left;
         }
 
-        /* Seção de Conteúdo Assímbrico */
         .content-section {
-            max-width: 1000px;
+            max-width: 900px;
             margin: 60px auto;
             padding: 0 20px;
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 40px;
-            align-items: center;
-        }
-
-        .content-block {
-            padding: 20px;
-        }
-
-        .content-block h2 {
-            font-size: 1.8rem;
-            margin-bottom: 15px;
         }
 
         .code-snippet {
-            background-color: #f4f4f4;
-            padding: 15px;
-            border-radius: 5px;
-            font-family: monospace;
-            overflow-x: auto;
-            font-size: 0.9rem;
-        }
-
-        /* Seção de Evidências (Grid) */
-        .evidence-section {
-            max-width: 1000px;
-            margin: 60px auto;
-            padding: 0 20px;
-        }
-
-        .evidence-section h2 {
-            text-align: center;
-            margin-bottom: 40px;
+            background-color: #2d2d2d;
+            color: #ccc;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
 
         .evidence-grid {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
         }
 
         .evidence-card {
-            border: 1px solid #ddd;
-            padding: 20px;
-            background-color: #fff;
-            transition: transform 0.2s ease-in-out;
+            border: 1px solid #eee;
+            padding: 25px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
         }
 
-        .evidence-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-
-        .evidence-card h3 {
-            margin-top: 0;
-            color: #007bff;
-        }
-
-        footer {
-            text-align: center;
-            padding: 40px;
-            background-color: #f9f9f9;
-            color: #777;
-            font-size: 0.9rem;
-            border-top: 1px solid #eee;
-        }
+        .evidence-card h3 { color: #007bff; margin-top: 0; font-size: 1.1rem; }
+        footer { text-align: center; padding: 40px; color: #888; font-size: 0.8rem; border-top: 1px solid #eee; }
     </style>
 </head>
 <body>
 
     <header>
         <h1>INVESTIGAÇÃO DA INFORMAÇÃO</h1>
-        <p>Projeto de Iniciação Científica (IC) - Danielle (UNIRIO)</p>
+        <p>Iniciação Científica | Danielle - Arquivologia UNIRIO</p>
     </header>
 
     <div class="banner-section">
-        <div class="banner-image"></div>
-        <p class="banner-text">“Organização e análise visual de fontes digitais para a Arquivologia: um acervo para a investigação científica.”</p>
+        <p class="banner-text">
+            Este repositório documenta a intersecção entre a ciência arquivística e a tecnologia, 
+            focando na automação de fluxos informacionais e na preservação de evidências digitais.
+        </p>
     </div>
 
     <div class="content-section">
-        <div class="content-block">
-            <h2>O Lógica em Python</h2>
-            <p>Usamos scripts simples para simular coletas de dados e interações, como o cálculo de idade de fontes.</p>
+        <div>
+            <h2>Tecnologia Aplicada</h2>
+            <p>Utilização de Python para processamento de metadados e lógica de organização documental, garantindo a integridade da cadeia de custódia.</p>
         </div>
-        <div class="content-block code-snippet">
-            # primeiros_passos.py<br>
-            nome_fonte = "Documento X"<br>
-            ano_criacao = int(input("Ano: "))<br>
-            idade = 2024 - ano_criacao<br>
-            if idade > 10:<br>
-                print("Fonte Antiga")
+        <div class="code-snippet">
+            # Script de Verificação de Custódia<br>
+            documento = "Relatório_IC_2026.pdf"<br>
+            status = "Autêntico" if hasattr(documento, 'metadata') else "Em análise"<br>
+            print(f"Documento: {documento} | Status: {status}")
         </div>
     </div>
 
-    <div class="evidence-section">
-        <h2>PORTFÓLIO DE EVIDÊNCIAS</h2>
-        <div class="evidence-grid">
-            <div class="evidence-card">
-                <h3>Evidência IC-01</h3>
-                <p>Metadados extraídos de um arquivo PDF corrompido. Análise de integridade pendente.</p>
-            </div>
-            <div class="evidence-card">
-                <h3>Insights #2</h3>
-                <p>Relacionar o princípio da proveniência com a cadeia de custódia digital.</p>
-            </div>
-            <div class="evidence-card">
-                <h3>Repositório Git</h3>
-                <p>Repositório 'investigacao' criado para servir como acervo e portfólio.</p>
-            </div>
+    <div class="evidence-grid">
+        <div class="evidence-card">
+            <h3>Gestão Documental</h3>
+            <p>Aplicação prática de conceitos arquivísticos no estágio da Defensoria Pública (DPGE-RJ).</p>
+        </div>
+        <div class="evidence-card">
+            <h3>Pesquisa Acadêmica</h3>
+            <p>Mapeamento de fontes de informação e análise de proveniência em ambientes digitais.</p>
+        </div>
+        <div class="evidence-card">
+            <h3>Versionamento</h3>
+            <p>Uso do GitHub como ferramenta de transparência e portfólio para a Iniciação Científica.</p>
         </div>
     </div>
 
     <footer>
-        <p>Desenvolvido por Danielle, estudante de Arquivologia - UNIRIO. 2024.</p>
+        Desenvolvido por Danielle Ericeira. Rio de Janeiro, 2026.
     </footer>
 
 </body>
